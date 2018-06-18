@@ -1,23 +1,38 @@
-# vuejs-meetup-code-along
+# Building Interfaces in Vue
 A repo to be used for a code along talk given at the Vue.js Indy Meetup Group.
+* [Vue.js Indy - Website](https://vuejsindy.js.org/)
+* [Vue.js Indy - Discord](https://discord.gg/3q6D3UU)
+* [Vue.js Indy - Meetup Group](https://www.meetup.com/vuejsindy/)
 
-### Note
-2018-06-17
-* This is only tested on a computer running MacOS.
-* Issue on [codesandbox.io](http://codesandbox.io) that is preventing me 
-from sharing this repo for all to follow along with ease 
+## What we're building...
+This is an opinionated project setup as most of the structure and styling is in place and functionality/views 
+are abstracted out. We will be reviewing the existing structure and adding `people` routes, views, 
+state, and functionality to the project. We will be using pre-existing components that we will 
+link together and build functionality within.
 
-## What this code along will cover
-* Building Interfaces in Vue
+#### What we will cover...
+* Environment Setup
+* Structure Overview
 * Debugging w/ Vue-Devtools
-* Route Management and Inheritance w/ Vue Router
-* State Management w/ Vuex
-* Making API Calls w/ Axios
-* Watchers vs Computed Properties
-    * When to use one over the other with examples.
-* Click Functions
-* Using Props 
-* Animated Transitions in Vue
+* Build Routes
+    * Named Routes
+    * Custom Components
+    * Route Containers / Layouts
+    * Route Transitions
+    * Data Fetching on Dynamic Routes
+* Build Store
+    * State Management
+    * API Calls
+    * Using Namespaced Modules
+    * Filter State Data
+    * Using `mapGetters`
+* Basic Functionality
+    * Watchers vs Computed Properties
+    * Click 
+    * Keyup
+    * Props
+    * Custom Component
+    * v-model Interaction
 
 #### If we have time
 * Form Interaction
@@ -62,18 +77,11 @@ If you are following along with the `npm-simple` or `npm-abstracted` folders we 
 * A basic understanding of how to navigate and execute commands in your terminal
     * Recommend watching Wes Bos' [Command Line Power User](https://commandlinepoweruser.com/) Series
 
-## What we're building...
-* List of Users
-* Nested Route Views
-* Filter Data
-* Key Events and Navigation
-
 ## Other
 Additional aspects about this project that are not required for what we are building 
 but are being introduced as part of this code along due to my own preferences. 
 
 ### Files and Their Descriptions
-* .env
 * .env-example
 * .nvmrc
 * LocalValetDriver.php
