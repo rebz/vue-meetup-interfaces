@@ -1,0 +1,36 @@
+.ListItem {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: $font__base-color;
+    align-items: center;
+    cursor: pointer;
+    padding: 14px 10px 12px;
+
+    &__con {
+        margin-left: 16px;
+        display: flex;
+        flex-direction: column;
+
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+
+    &__title {
+        @include font-size(16px);
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+
+    &__subtitle {
+        @include font-size(12px);
+        color: #999;
+        margin-top: 3px;
+    }
+
+    &:hover {
+        background: #eee;
+        color: $primary-color;
+    }
+}

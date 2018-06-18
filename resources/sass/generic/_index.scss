@@ -1,0 +1,39 @@
+@import "reset";
+@import "highlight";
+
+
+
+
+
+
+
+.m2-header {
+    position: relative;
+    height: 800px;
+    width: 100%;
+    background-image: url("/images/module2/temp.jpg");
+
+    &:before {
+        content: ' ';
+        position: absolute;
+        background: linear-gradient(transparent, white);
+        height: 800px;
+        width: 100%;
+    }
+}
+
+.slide {
+    border: 5px solid black;
+    margin: 50px;
+}
+
+.slide-header {
+    font-size: 30pt;
+    font-weight: 400;
+}
+
+.citation-source {
+    color: #A59D95;
+    font-size: 16px;
+}
+

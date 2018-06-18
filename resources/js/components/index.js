@@ -1,0 +1,1 @@
+// Vue.component("Navigation", require("./Navigation.vue"))

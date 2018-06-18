@@ -1,0 +1,30 @@
+{
+    "name": "rebz-vuejs-meetup-code-along-npm-abstracted",
+    "version": "1.0.0",
+    "description": "...",
+    "main": "resources/js/app.js",
+    "scripts": {
+        "dev": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build"
+    },
+    "author": "Chris Johnson <chris@rebzmedia.com>",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.17.1",
+        "nprogress": "^0.2.0",
+        "vue": "^2.5.16",
+        "vue-router": "^3.0.1",
+        "vuex": "^3.0.1"
+    },
+    "devDependencies": {
+        "browser-sync": "^2.18.11",
+        "browser-sync-webpack-plugin": "^1.2.0",
+        "cross-env": "^5.0.5",
+        "express": "^4.16.3",
+        "laravel-mix": "1.6.0"
+    }
+}
