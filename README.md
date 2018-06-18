@@ -4,6 +4,12 @@ A repo to be used for a code along talk given at the Vue.js Indy Meetup Group.
 * [Vue.js Indy - Discord](https://discord.gg/3q6D3UU)
 * [Vue.js Indy - Meetup Group](https://www.meetup.com/vuejsindy/)
 
+## Getting Started
+* Clone Repo
+* Navigate to folder
+* `npm install`
+* `npm run watch`
+
 ## What we're building...
 This is an opinionated project setup as most of the structure and styling is in place and functionality/views 
 are abstracted out. We will be reviewing the existing structure and adding `people` routes, views, 
