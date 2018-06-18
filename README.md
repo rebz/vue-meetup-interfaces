@@ -66,7 +66,6 @@ link together and build functionality within.
     * A Node Framework that is only to be used if you wish to view your project without running Browsersync and you have no vhost or custom domain setup.
 
 ## Expectations
-If you are following along with the `npm-simple` or `npm-abstracted` folders we expect the following:
 * [Vue Devtools](https://github.com/vuejs/vue-devtools)
     * A browser extension or standalone tool for debugging Vue.js applications.
 * [Node](https://nodejs.org/en/) v8.11.3 LTS
